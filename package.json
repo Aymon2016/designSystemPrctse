@@ -1,0 +1,28 @@
+{
+  "name": "@dse/core",
+  "version": "1.0.0",
+  "description": "Desing System",
+  "main": "index.js",
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  },
+  "dependencies": {
+    "@lerna/child-process": "^6.6.1",
+    "js-yaml": "^4.1.0",
+    "nx": "^15.8.9",
+    "rimraf": "^4.4.1"
+  },
+  "workspaces": {
+    "packages": [
+      "package/*",
+      "playground/*"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
