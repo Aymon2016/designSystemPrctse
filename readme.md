@@ -1088,12 +1088,28 @@ ai class ta git repositoy manage korer monorepo niye class
 
 
 akon amra scss file ta k package folder e diye dibo.jar karone scss er package.json file e ai ta add korte hobe.
+                    {
+                    "name": "@dse/scss",
+                    "version": "1.0.0",
+                    "description": "",
+                    "main": "index.js",
+                    "scripts": {
+                        "build": "node ./src/scripts/build.js"
+                    },
+                    "keywords": [],
+                    "author": "",
+                    "license": "ISC",
+                    "dependencies": {
+                        "sass": "^1.60.0"
+                    }
+                    }
 
-1.akon package folder e akta init korte hobe.
+
+1.akon DSE ROOT folder e akta init korte hobe.
     yarn init -y
      package.json
             {
-            "name": "@ds.e/core",
+            "name": "@dse/core",
             "version": "1.0.0",
             "main": "index.js",
             "license": "MIT"
@@ -1122,7 +1138,7 @@ akon amra scss file ta k package folder e diye dibo.jar karone scss er package.j
         "workspaces": {
                     "packages": [
                     "packages/*",
-                    "playgrounds"
+                    "playground/*"    TERPOR O PLAYGROUND TA KAJ KORE NAHH
                     ]
                 },
                 "private": true,
@@ -1131,9 +1147,9 @@ akon amra scss file ta k package folder e diye dibo.jar karone scss er package.j
                     "dev": "yarn lerna run dev"
                 }
 
- josi full package json ta hobe
+ joDi full package json ta hobe
                 {
-            "name": "@designSystemPrctse/core",
+            "name": "@dse/core",
             "version": "1.0.0",
             "description": "",
             "main": "index.js",
@@ -1209,6 +1225,7 @@ ok error is solve.actually when i install package by npm.this is work.i think fi
 
 5.basic akta button componet create typescript diye and oi je scss package teke class add korte parbo;
                 import * as React from 'react';
+                ai kane css ta import kore pelbo noile je kane ai ta use korbo sei kane add kora lagbe.
 
             interface ButtonProps{
             title:string;

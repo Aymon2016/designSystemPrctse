@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { FontSize } from '@dse/foundation';
-import '@dse/scss/lib/Text.css';
+import '@dse/scss/lib/text.css';
 
 interface TextProps {
 	size?: keyof typeof FontSize;

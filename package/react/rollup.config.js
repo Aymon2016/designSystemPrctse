@@ -7,6 +7,7 @@ module.exports = {
         'src/atoms/Color/index.ts',
         'src/atoms/text/index.ts',
         'src/atoms/margin/index.ts',
+        'src/molecules/Select/index.ts'
 
     ],
     output: {

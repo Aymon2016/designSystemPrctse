@@ -1,5 +1,5 @@
 import React__default from 'react';
-import '@dse/scss/lib/Margin.css';
+import '@dse/scss/lib/margin.css';
 
 const Margin = ({ space = 'md', left, right, top, bottom, children, }) => {
     let className = '';
