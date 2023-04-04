@@ -30,6 +30,11 @@ const App = () => {
 				label="iam a select button"
 				option={colorOptions}
 				onOptionSelected={console.log}
+				// renderOption={({
+				// 	option,
+				// 	getOptionRecommendProps,
+
+				// })=>(<li {...getOptionRecommendProps()}>{option.label}</li>)}
 				/>
 			
 		</div>
