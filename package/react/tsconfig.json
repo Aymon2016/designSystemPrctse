@@ -3,7 +3,7 @@
     "jsx": "react",
     "module": "ESNext",
     "target": "es6",
-    "lib": ["dom", "es6"],
+    "lib": ["es2016", "dom"],
 		"outDir": "lib",
 		"allowSyntheticDefaultImports": true,
 		"noImplicitAny": true,
